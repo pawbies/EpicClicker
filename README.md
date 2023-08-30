@@ -1,4 +1,4 @@
-#EpicClicker
+# EpicClicker
 So yeah i made myself an autoclicker...
 Why?
 Because i felt like it.
