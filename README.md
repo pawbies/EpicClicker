@@ -13,7 +13,7 @@ But maybe you don't so here's how:
 2. you hop into your newly acquired directory:  
 `cd EpicClicker`
 3. you should probably make a new folder for the build stuff so you have a nice folder structure:  
-`mkdir build &&`
+`mkdir build`
 and
 `cd build`
 4. now you use cmake to build the executable (assuming you have cmake installed, if not go get it, there ya go: [cmake](https://cmake.org)):  
