@@ -10,7 +10,7 @@ But maybe you don't so here's how:
 
 1. clone the repo:  
 `git clone https://github.com/CHoneyfox/EpicClicker.git`  
-2. you hop into your newly aquired directory:  
+2. you hop into your newly acquired directory:  
 `cd EpicClicker`
 3. you should probably make a new folder for the build stuff so you have a nice folder structure:  
 `mkdir build &&`
