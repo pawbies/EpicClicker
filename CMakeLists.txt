@@ -39,6 +39,7 @@ set(ALL_FILES
 )
 
 add_executable(clicker ${ALL_FILES})
+add_subdirectory(Dependencies/glfw)
 
 target_include_directories(clicker PUBLIC
     "Dependencies/imgui"
@@ -52,8 +53,7 @@ target_link_directories(clicker PRIVATE
 )
 
 target_link_libraries(clicker PRIVATE
-    "glfw3"
-    "glfw3_mt"
+    "glfw"
     "opengl32"
     "glew32s"
 )
