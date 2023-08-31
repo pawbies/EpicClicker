@@ -40,19 +40,16 @@ set(ALL_FILES
 
 add_executable(clicker ${ALL_FILES})
 add_subdirectory(Dependencies/glfw)
+add_subdirectory(Dependencies/glew-cmake)
 
 target_include_directories(clicker PUBLIC
     "Dependencies/imgui"
-    "Dependencies/GLEW/include"
+    "Dependencies/glew-cmake/include"
     "Dependencies/glfw/include"
-)
-
-target_link_directories(clicker PRIVATE
-    "Dependencies/GLEW/lib/Release/x64"
 )
 
 target_link_libraries(clicker PRIVATE
     "glfw"
     "opengl32"
-    "glew32s"
+    "libglew_static"
 )
