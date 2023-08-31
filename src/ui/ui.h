@@ -1,6 +1,7 @@
 #pragma once
 
-#define GLEW_STATIC
+//apparently it already get's defined automatically by linking against the static version in cmake
+//#define GLEW_STATIC
 #include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
