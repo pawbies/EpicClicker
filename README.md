@@ -3,7 +3,7 @@ So yeah i made myself an autoclicker...
 Why?
 Because i felt like it.
 Here's a Screenshot:
-![Screenshot](presentation/Screenshot.png)
+![Screenshot](Screenshot.png)
 
 I guess if you have any knowledge in c++ stuff than you know how to build it.  
 But maybe you don't so here's how:
