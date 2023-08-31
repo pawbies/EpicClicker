@@ -9,7 +9,7 @@ I guess if you have any knowledge in c++ stuff than you know how to build it.
 But maybe you don't so here's how:
 
 1. clone the repo:  
-`git clone https://github.com/CHoneyfox/EpicClicker.git`  
+`git clone --recursive https://github.com/CHoneyfox/EpicClicker.git`  
 2. you hop into your newly acquired directory:  
 `cd EpicClicker`
 3. you should probably make a new folder for the build stuff so you have a nice folder structure:  
