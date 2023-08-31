@@ -24,7 +24,7 @@ void Application::checkKey() //checks if the PAUSE button was pressed
 	{
 		if (!m_KeyIsPressed)
 		{
-			*m_ClickerRunning ? *m_ClickerRunning = false : *m_ClickerRunning = true;
+			*m_ClickerRunning = !*m_ClickerRunning;
 			m_KeyIsPressed = true;
 		}
 	}
