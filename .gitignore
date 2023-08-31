@@ -1,2 +1,5 @@
 #the build directory
 build/
+
+#imgui config stuff
+imgui.ini
