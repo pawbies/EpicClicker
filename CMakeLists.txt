@@ -48,7 +48,6 @@ target_include_directories(clicker PUBLIC
 )
 
 target_link_directories(clicker PRIVATE
-    "Dependencies/glfw/lib-vc2022"
     "Dependencies/GLEW/lib/Release/x64"
 )
 
