@@ -15,4 +15,5 @@ private:
 
 public:
 	Application();
+	~Application();
 };

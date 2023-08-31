@@ -14,6 +14,10 @@ Application::Application()
 {
 	m_ClickerRunning = m_Clicker.getRunningPtr();
 	this->run();
+}
+
+Application::~Application()
+{
 	this->cleanup();
 }
 
