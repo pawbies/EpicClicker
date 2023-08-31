@@ -94,17 +94,17 @@ void UI::drawMain() //the main menu
 		forever ? *m_AmountPtr = 0 : *m_AmountPtr = 1;
 
 	if (ImGui::Button(m_ShowStats ? "Hide Stats" : "Show Stats"))
-		m_ShowStats ? m_ShowStats = false : m_ShowStats = true;	
+		m_ShowStats = !m_ShowStats;	
 
 	ImGui::SameLine();
 
 	if (ImGui::Button(m_ShowProgress ? "Hide Progress" : "Show Progress"))
-		m_ShowProgress ? m_ShowProgress = false : m_ShowProgress = true;
+		m_ShowProgress = !m_ShowProgress;
 
 	ImGui::SameLine();
 
 	if (ImGui::Button(*m_RunningPtr ? "Stop/PAUSE" : "Start/PAUSE"))
-		*m_RunningPtr ? *m_RunningPtr = false : *m_RunningPtr = true;
+		*m_RunningPtr = !*m_RunningPtr;
 
 	if (m_ShowProgress)
 		drawProgress(forever, *m_ClicksPtr, *m_AmountPtr);
