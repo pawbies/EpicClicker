@@ -38,7 +38,7 @@ set(ALL_FILES
     ${Source_Files}
 )
 
-add_executable(clicker ${ALL_FILES})
+add_executable(clicker WIN32 ${ALL_FILES})
 add_subdirectory(Dependencies/glfw)
 add_subdirectory(Dependencies/glew-cmake)
 

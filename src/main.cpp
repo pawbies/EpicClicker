@@ -1,6 +1,7 @@
 #include "application.h"
+#include <windows.h>
 
-int main(int argc, char **argv)
+int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmdshow)
 {
     Application a = Application();
 
